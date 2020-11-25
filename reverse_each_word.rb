@@ -11,7 +11,7 @@ final_string = reversed_string.join(" ")
 
 end
 
-def reverse_each_word_collect (string)
+def reverse_each_word (string)
   stored_string = []
  reversed_string = []
  stored_string = string.split
