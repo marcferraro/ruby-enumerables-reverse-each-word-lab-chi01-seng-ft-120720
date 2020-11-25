@@ -5,9 +5,9 @@ def reverse_each_word (string)
  
  stored_string.each do |word|
    reversed_string << word.reverse
-   
+   final_string = reversed_string.join(" ")
  end
-final_string = reversed_string.join(" ")
+
 
 end
 
