@@ -6,7 +6,8 @@ def reverse_each_word (string)
  stored_string = string.split
  
  stored_string.each do |word|
-   stored_string = word.reverse
+   reversed_string << word.reverse
+   reversed_string.to_s
  end
-stored_string
+reversed_string
 end
