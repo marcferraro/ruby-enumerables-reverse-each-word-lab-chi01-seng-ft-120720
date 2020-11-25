@@ -8,5 +8,5 @@ def reverse_each_word (string)
  stored_string.each do |word|
    reversed_string = word.reverse
  end
- reversed_string.tos
+ reversed_string.to_s
 end
