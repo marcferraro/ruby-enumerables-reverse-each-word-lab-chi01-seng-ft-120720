@@ -8,6 +8,7 @@ def reverse_each_word (string)
    reversed_string << word.reverse
    
  end
- final_string = reversed_string.to_s
+final_string = reversed_string.to_s
+final_string.join(" ")
 final_string
 end
