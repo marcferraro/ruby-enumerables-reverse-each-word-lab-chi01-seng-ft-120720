@@ -2,7 +2,7 @@ def reverse_each_word (string)
   
   stored_string = []
   reversed_string = []
-  
+  final_string = nil
  stored_string = string.split
  
  stored_string.each do |word|
